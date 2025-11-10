@@ -42,3 +42,9 @@ Make sure you have installed:
 Install Expo CLI globally (if you haven’t yet):
 ```bash
 npm install -g expo-cli
+
+
+
+
+
+This project is licensed under the MIT License — feel free to use, modify, and build upon FocusFlow.
