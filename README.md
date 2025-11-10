@@ -1,33 +1,44 @@
-# 📱 FocusFlow – Productivity & Habit Tracker App
+# 🌿 FocusFlow — Your Daily Productivity Companion
 
-**FocusFlow** is a cross-platform productivity app built with **React Native (Expo)** and **Firebase**.  
-It helps users build better habits, track progress, and stay consistent through clean UI and AI-powered insights.
+FocusFlow is a modern **productivity & habit tracking app** built with **React Native + Expo**, powered by **Firebase** for authentication and cloud storage.  
+The app helps you organize your day, track habits, write journals, and manage your focus — all in one elegant mobile experience.
 
 ---
 
-## 🚀 Features
+## 📱 Features
 
-- 🧘‍♂️ **Habit Tracker** – Create and track daily habits  
-- ✍️ **Journal** – Write down thoughts or reflections each day  
-- 🌗 **Dark/Light Mode** – Customizable interface  
-- 🔒 **Authentication** – Secure login via Firebase (email & password)  
-- 💰 **Premium Subscription** – Unlock unlimited habits, cloud sync & AI assistant  
-- ☁️ **Cloud Sync** – Automatically save your data with Firebase Firestore  
+- 🏠 **Home Dashboard** – Overview of your day and tasks  
+- 🔁 **Habit Tracker** – Create, complete, and monitor habits  
+- ✍️ **Journal** – Write quick notes or reflections  
+- ⚙️ **Settings** – Customize app theme (dark/light mode)  
+- 🔐 **Firebase Authentication** – Email & password login  
+- ☁️ **Cloud Sync** – All data stored safely in Firestore  
+- 💳 **Premium Subscription (WIP)** – Unlock extra productivity tools with monthly subscription  
 
 ---
 
 ## 🧠 Tech Stack
 
-| Area | Technology |
-|------|-------------|
-| Framework | React Native (Expo) |
-| Language | TypeScript / JavaScript |
-| Backend | Firebase (Auth + Firestore) |
-| Subscription | react-native-iap |
-| State Management | Zustand or Redux |
-| Styling | NativeWind / React Native Paper |
+| Layer | Technology |
+|-------|-------------|
+| Frontend | React Native + Expo |
+| State Management | React Hooks / Context API |
+| Backend | Firebase (Firestore + Auth) |
+| Payments | react-native-iap (for in-app subscriptions) |
+| Navigation | @react-navigation/native |
+| Styling | Tailwind React Native (NativeWind) |
+| Version Control | Git + GitHub |
 
 ---
 
-## 🧩 Folder Structure
+## ⚙️ Installation & Setup
 
+### 1️⃣ Prerequisites
+Make sure you have installed:
+- [Node.js](https://nodejs.org/)  
+- [Git](https://git-scm.com/)  
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+
+Install Expo CLI globally (if you haven’t yet):
+```bash
+npm install -g expo-cli
